@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doações | ACD — Associação Canoinhense de Deficientes</title>
+  <meta name="description" content="Apoie a ACD com uma doação via Pix. Qualquer valor faz a diferença.">
+  <meta name="theme-color" content="#142f56">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Doações | ACD — Associação Canoinhense de Deficientes">
+  <meta property="og:description" content="Apoie a ACD com uma doação via Pix. Qualquer valor faz a diferença.">
+  <meta property="og:image" content="imgs/equipe.jpg">
+  <link rel="icon" type="image/png" href="imgs/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="faixa-institucional">
+    <div class="container faixa-conteudo">
+      <a href="index.html" class="logo-institucional" aria-label="ACD - página inicial">
+        <img src="imgs/logo.png" alt="Logo da ACD" width="100" height="150">
+      </a>
+      <div class="texto-institucional">
+        <strong>ASSOCIAÇÃO CANOINHENSE DE DEFICIENTES</strong>
+        <p>Abrangência: Canoinhas, Três Barras, Bela Vista do Toldo e Major Vieira — Planalto Norte de Santa Catarina.</p>
+      </div>
+    </div>
+  </div>
+
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a class="marca" href="index.html" aria-label="ACD — Associação Canoinhense de Deficientes — página inicial">
+        <img src="imgs/logo.png" alt="" width="42" height="62">
+        <span class="marca-texto">
+          <strong>Associação Canoinhense<br>de Deficientes</strong>
+          <small>Planalto Norte de SC</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav aria-label="Principal">
+        <ul class="menu" id="menu">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li class="tem-submenu">
+            <button class="submenu-toggle" aria-expanded="false" aria-controls="submenu-deficiencias">Deficiências</button>
+            <ul class="submenu" id="submenu-deficiencias">
+            <li><a href="auditiva.html">Auditiva</a></li>
+            <li><a href="fisica.html">Física</a></li>
+            <li><a href="visual.html">Visual</a></li>
+            </ul>
+          </li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="doacoes.html" class="menu-cta" aria-current="page">Doe agora</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="pagina-topo">
+      <div class="container">
+        
+        
+        <span class="etiqueta">Apoie a ACD</span>
+        <h1>Faça a <em>diferença</em></h1>
+        <p>Sua contribuição ajuda a Associação Canoinhense de Deficientes a continuar realizando seu trabalho. Qualquer valor faz a diferença!</p>
+      </div>
+    </section>
+
+    <section class="secao secao--azul">
+      <div class="container">
+        <div class="doacao-cartao">
+          <h2>Doe pelo QR Code</h2>
+          <div class="qr-code"><img src="imgs/pix.jpg" alt="QR Code para doação via Pix" width="587" height="584"></div>
+          <p class="instrucao-pix">Escaneie o código com o aplicativo do seu banco.</p>
+          <h2>Ou copie nossa chave Pix</h2>
+          <div class="chave-pix">
+            <code id="chavePix">00020126510014br.gov.bcb.pix0114793666620001300211Doacoes ACD5204000053039865802BR5925ASSOCIACAO CATARINENSE DO6009CANOINHAS62290525C1L4OIwI0BwKmA0p9tc6wUub863046BB2</code>
+            <button type="button" id="btnCopiarPix"><i class="fa-regular fa-copy" aria-hidden="true"></i> Copiar</button>
+          </div>
+          <p id="mensagemPix" class="mensagem-pix" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--escura" aria-labelledby="parceiras-titulo">
+      <div class="container">
+        <div class="secao-intro">
+          <span class="sobretitulo">Quem apoia</span>
+          <h2 id="parceiras-titulo">Empresas Amigas da ACD</h2>
+          <p>Obrigado a quem acredita na inclusão e caminha junto com a gente.</p>
+        </div>
+        <div class="parceiras-grade">
+        <div class="parceira"><img src="imgs/parceiras/2.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/1.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/3.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/4.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/5.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/6.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/7.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/8.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/9.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/10.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        <div class="parceira"><img src="imgs/parceiras/11.png" alt="Logotipo de empresa amiga da ACD" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="container rodape-grade">
+      <div>
+        <span class="sobretitulo">Contato</span>
+        <h2>Fale com a gente</h2>
+        <p style="margin-top:10px">Entre em contato para saber mais sobre nossos serviços ou como apoiar a ACD.</p>
+      </div>
+      <div>
+        <h3>Endereço</h3>
+        <p>Rua Irmã Maria Felicitas, 700<br>Centro, Canoinhas – SC</p>
+        <h3 style="margin-top:18px">Telefone</h3>
+        <p><a href="tel:+554736227735">(47) 3622-7735</a></p>
+      </div>
+      <div>
+        <h3>E-mail</h3>
+        <p><a href="mailto:acd.sc@hotmail.com">acd.sc@hotmail.com</a></p>
+        <h3 style="margin-top:18px">Redes sociais</h3>
+        <div class="redes">
+          <a href="https://www.facebook.com/acddeficientes/" aria-label="Facebook da ACD" title="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/acddeficientes/" aria-label="Instagram da ACD" title="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UCYj2EPKPGyU61ogujYnhYFg" aria-label="YouTube da ACD" title="YouTube" target="_blank" rel="noopener"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <nav aria-label="Rodapé">
+        <h3>Navegue</h3>
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="doacoes.html">Doações</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rodape-final">
+      <div class="container">
+        <span>© 2026 Associação Canoinhense de Deficientes</span>
+        <span class="frase-final">ACD É DIVERSIDADE, É INCLUSÃO!</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
